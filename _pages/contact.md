@@ -24,6 +24,20 @@ Terbuka untuk diskusi akademik, kolaborasi proyek, maupun kesempatan magang dan 
       <p>samuel-simanjuntak-b9b98b2b0</p>
     </div>
   </a>
+  <a class="contact-card" href="https://instagram.com/ryazanvl" target="_blank" rel="noopener">
+    <i class="fab fa-fw fa-instagram" aria-hidden="true"></i>
+    <div>
+      <h4>Instagram</h4>
+      <p>@ryazanvl</p>
+    </div>
+  </a>
+  <a class="contact-card" href="https://x.com/ryazanvl" target="_blank" rel="noopener">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i>
+    <div>
+      <h4>X</h4>
+      <p>@ryazanvl</p>
+    </div>
+  </a>
   <div class="contact-card contact-card--static">
     <i class="fas fa-fw fa-location-dot" aria-hidden="true"></i>
     <div>
@@ -39,3 +53,7 @@ Terbuka untuk diskusi akademik, kolaborasi proyek, maupun kesempatan magang dan 
     </div>
   </div>
 </div>
+
+<p class="lead-kicker" style="margin-top: 2em;">ORCID</p>
+
+Tautan ORCID iD akan ditampilkan di sini setelah tersedia — belum ada ID yang dikonfigurasi saat ini.

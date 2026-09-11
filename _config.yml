@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Samuel Simanjuntak"
 title_separator          : "-"
 name                     : &name "Samuel Simanjuntak"
-description              : &description "Portofolio profesional Samuel Yohanes Caesar Simanjuntak — Mahasiswa Teknik Industri, Institut Teknologi Sumatera."
+description              : &description "Portofolio profesional Samuel Yohanes Caesar Simanjuntak — Mahasiswa Teknik Industri, Institut Teknologi Sumatera. Fokus pada manajemen industri, valuasi & metodologi pengambilan keputusan, rantai pasok, manajemen perawatan, pengendalian mutu, dan riset teologi Kristen."
 url                      : "" # left blank; the site is deployed and served via Vercel rather than GitHub Pages
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Samuel-Ararath/resume"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Samuel Simanjuntak"
   pronouns         : # example: "she/her"  
-  bio              : "Mahasiswa Teknik Industri, ITERA — fokus pada manajemen industri, rantai pasok, dan investasi."
+  bio              : "Mahasiswa Teknik Industri, ITERA — fokus pada manajemen industri, valuasi & metodologi pengambilan keputusan, rantai pasok, manajemen perawatan, pengendalian mutu, serta riset teologi Kristen."
   location         : "Jakarta Pusat, DKI Jakarta"
   employer         : "Institut Teknologi Sumatera"
   uri              : # URL
@@ -37,7 +37,7 @@ author:
   googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : # URL - tambahkan link ORCID iD Anda di sini, contoh: https://orcid.org/0000-0000-0000-0000
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
@@ -63,7 +63,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "ryazanvl"
   lastfm           : # Username
   linkedin         : "samuel-simanjuntak-b9b98b2b0"
   mastodon         : # URL
@@ -73,7 +73,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter           : "ryazanvl"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username

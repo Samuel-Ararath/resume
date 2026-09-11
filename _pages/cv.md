@@ -11,7 +11,7 @@ redirect_from:
 
 <p class="lead-kicker">Ringkasan</p>
 
-Mahasiswa Teknik Industri dengan minat pada manajemen industri, ekonomi investasi, dan rantai pasok. Berpengalaman dalam kompetisi investasi tingkat nasional serta aktif mengambil peran kepemimpinan di organisasi kemahasiswaan.
+Mahasiswa Teknik Industri dengan minat pada manajemen industri, ekonomi &amp; valuasi, rantai pasok, manajemen perawatan, dan pengendalian mutu. Berpengalaman dalam kompetisi valuasi tingkat nasional serta aktif mengambil peran kepemimpinan di organisasi kemahasiswaan.
 
 Pendidikan
 ======
@@ -22,8 +22,8 @@ Pendidikan
 Pengalaman &amp; Kompetisi
 ======
 * **EFFECT UNS 2024** — Universitas Sebelas Maret
-  * Peserta Kompetisi Investasi Nasional
-  * Menyusun analisis dan strategi investasi sebagai bagian dari tim kompetisi tingkat nasional.
+  * Peserta Kompetisi Valuasi Nasional
+  * Menyusun analisis kelayakan dan valuasi sebagai bagian dari tim kompetisi tingkat nasional, dengan penekanan pada metodologi pengambilan keputusan.
 
 Pengalaman Organisasi
 ======
@@ -38,8 +38,10 @@ Pengalaman Organisasi
 
 Keahlian
 ======
-* Analisis &amp; kelayakan investasi
+* Analisis kelayakan &amp; valuasi
 * Manajemen rantai pasok (*supply chain management*)
+* Manajemen perawatan (*maintenance management*)
+* Pengendalian mutu (*quality control*)
 * Manajemen operasional &amp; logistik
 * Kerja tim dan kepemimpinan organisasi
 * Microsoft Office (Excel, Word, PowerPoint)
@@ -48,6 +50,10 @@ Bahasa
 ======
 * Bahasa Indonesia — Native
 * Bahasa Inggris — Profesional
+
+Riset &amp; Penulisan Ilmiah
+======
+* **Teologi Kristen** — beberapa naskah penelitian sedang dalam proses penulisan, belum dipublikasikan. Lihat halaman [**Teologi**]({{ base_path }}/focus/teologi/) untuk deskripsi arah risetnya.
 
 Publikasi
 ======
