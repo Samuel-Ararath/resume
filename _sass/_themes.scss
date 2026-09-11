@@ -18,6 +18,10 @@ $serif                      : Georgia, Times, serif;
 $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
+/* Premium editorial typefaces (self-hosted via Google Fonts, loaded in _includes/head/custom.html) */
+$premium-serif               : "Fraunces", Georgia, serif;
+$premium-sans                : "Inter", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
 /* Sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
@@ -39,9 +43,9 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family          : $premium-sans;
+$header-font-family         : $premium-serif;
+$caption-font-family        : $premium-sans;
 
 /* ==========================================================================
    Breakpoints

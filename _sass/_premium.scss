@@ -1,0 +1,234 @@
+/* ==========================================================================
+   PREMIUM EDITORIAL LAYER
+   Original overrides on top of the Academic Pages / Minimal Mistakes layout:
+   warm ivory + brass (light) / deep ink + brass (dark) palette, Fraunces +
+   Inter type pairing, refined masthead, hero, cards and CTA treatments.
+   ========================================================================== */
+
+::selection {
+  background: var(--global-base-color);
+  color: var(--global-bg-color);
+}
+
+body {
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title {
+  font-family: $premium-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* -------------------------------------------------------------------------
+   Masthead / brand
+   ------------------------------------------------------------------------- */
+
+.masthead {
+  border-bottom: 1px solid var(--global-border-color);
+  backdrop-filter: saturate(140%) blur(6px);
+}
+
+.masthead__menu-item--lg a {
+  font-family: $premium-serif;
+  font-weight: 600;
+  font-size: 1.05em;
+  letter-spacing: 0.01em;
+}
+
+.greedy-nav a {
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+/* -------------------------------------------------------------------------
+   Sidebar / author profile
+   ------------------------------------------------------------------------- */
+
+.author__avatar img {
+  border: 1px solid var(--global-border-color);
+  box-shadow: 0 8px 24px -12px rgba(0, 0, 0, 0.35);
+}
+
+.author__name {
+  font-family: $premium-serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.author__bio {
+  font-size: 0.92em;
+  line-height: 1.6;
+}
+
+/* -------------------------------------------------------------------------
+   Lead kicker — small caps eyebrow label used above page headings
+   ------------------------------------------------------------------------- */
+
+.lead-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  font-family: $premium-sans;
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--global-base-color);
+  margin-bottom: 0.75em;
+}
+
+.lead-kicker::before {
+  content: "";
+  display: inline-block;
+  width: 2em;
+  height: 1px;
+  background: var(--global-base-color);
+}
+
+/* -------------------------------------------------------------------------
+   Focus grid — used on the About page
+   ------------------------------------------------------------------------- */
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 1.5em 0 2em;
+}
+
+@media (max-width: $small) {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.focus-card {
+  padding: 1.5rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background: var(--global-footer-bg-color);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.focus-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--global-base-color);
+  box-shadow: 0 16px 32px -20px rgba(0, 0, 0, 0.35);
+}
+
+.focus-card__index {
+  display: block;
+  font-family: $premium-serif;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--global-base-color);
+  margin-bottom: 0.5em;
+}
+
+.focus-card h4 {
+  margin: 0 0 0.35em;
+  font-size: 1.05em;
+}
+
+.focus-card p {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--global-text-color-light);
+}
+
+/* -------------------------------------------------------------------------
+   Contact grid — used on the Contact page
+   ------------------------------------------------------------------------- */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 1.5em 0 2em;
+}
+
+@media (max-width: $small) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background: var(--global-footer-bg-color);
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+a.contact-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--global-base-color);
+  box-shadow: 0 16px 32px -20px rgba(0, 0, 0, 0.35);
+  color: var(--global-text-color);
+}
+
+.contact-card i {
+  font-size: 1.4em;
+  color: var(--global-base-color);
+  width: 1.2em;
+  text-align: center;
+}
+
+.contact-card h4 {
+  margin: 0 0 0.15em;
+  font-size: 0.95em;
+}
+
+.contact-card p {
+  margin: 0;
+  font-size: 0.88em;
+  color: var(--global-text-color-light);
+  word-break: break-word;
+}
+
+.contact-card--static {
+  cursor: default;
+}
+
+/* -------------------------------------------------------------------------
+   Buttons
+   ------------------------------------------------------------------------- */
+
+.btn {
+  border-radius: $border-radius;
+  letter-spacing: 0.02em;
+}
+
+/* -------------------------------------------------------------------------
+   Archive / portfolio / publication cards
+   ------------------------------------------------------------------------- */
+
+.archive__item {
+  transition: transform 0.25s ease;
+}
+
+.list__item .archive__item-teaser {
+  border-radius: $border-radius;
+  overflow: hidden;
+}
+
+/* -------------------------------------------------------------------------
+   Footer
+   ------------------------------------------------------------------------- */
+
+.page__footer {
+  border-top: 1px solid var(--global-border-color);
+}
+
+.page__footer-copyright {
+  font-size: 0.8em;
+  letter-spacing: 0.01em;
+}

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,48 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+<p class="lead-kicker">Ringkasan</p>
+
+Mahasiswa Teknik Industri dengan minat pada manajemen industri, ekonomi investasi, dan rantai pasok. Berpengalaman dalam kompetisi investasi tingkat nasional serta aktif mengambil peran kepemimpinan di organisasi kemahasiswaan.
+
+Pendidikan
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Institut Teknologi Sumatera (ITERA)** — S1 Teknik Industri
+  * Status: Sedang menempuh studi
+  * Tugas akhir sedang dalam proses penyusunan, dengan fokus pada isu manajemen industri dan rantai pasok.
 
-Work experience
+Pengalaman &amp; Kompetisi
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **EFFECT UNS 2024** — Universitas Sebelas Maret
+  * Peserta Kompetisi Investasi Nasional
+  * Menyusun analisis dan strategi investasi sebagai bagian dari tim kompetisi tingkat nasional.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Pengalaman Organisasi
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Persekutuan Mahasiswa Kristen (PMK) ITERA**
+  * Kepala Departemen Operasional
+  * Kepala Divisi Logistik
+  * Mengoordinasikan kebutuhan logistik dan operasional kegiatan organisasi secara menyeluruh.
 
-Publications
+* **BATAVIA ITERA**
+  * Kepala Divisi Inventaris
+  * Bertanggung jawab atas pengelolaan dan pencatatan aset/inventaris organisasi.
+
+Keahlian
+======
+* Analisis &amp; kelayakan investasi
+* Manajemen rantai pasok (*supply chain management*)
+* Manajemen operasional &amp; logistik
+* Kerja tim dan kepemimpinan organisasi
+* Microsoft Office (Excel, Word, PowerPoint)
+
+Bahasa
+======
+* Bahasa Indonesia — Native
+* Bahasa Inggris — Profesional
+
+Publikasi
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
